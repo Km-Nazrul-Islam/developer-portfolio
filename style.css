@@ -4,10 +4,10 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 h2 {
-
+    font-size: 40px;
 }
 
 p {
@@ -15,11 +15,11 @@ p {
     text-align: justify;
 }
 
-h1 span {
+.orange-color {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 10%;
 }
@@ -60,3 +60,32 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experiance-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiance-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+
+#full-stack-developer {
+    border-left: 5px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 5px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
+
